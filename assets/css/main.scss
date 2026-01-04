@@ -56,8 +56,8 @@ search: false
 
 .members-grid{
   display: grid;
-  --member-card-min: 100px;
-  --member-card-max: 150px;
+  --member-card-min: 120px;
+  --member-card-max: 180px;
   grid-template-columns: repeat(auto-fit, minmax(var(--member-card-min), 1fr));
   gap: .65rem;
   align-items: stretch;
@@ -93,20 +93,22 @@ search: false
 }
 
 .member-card__body{
-  padding: .7rem .9rem .5rem;
+  padding: .6rem .65rem .55rem;
 }
 
 .member-card__name{
   font-weight: 800;
   font-size: .8rem;
   line-height: 1.2;
-  margin-bottom: .35rem;
+  margin-bottom: .25rem;
 }
 
 .member-card__position{
   font-size: .7rem;
   opacity: .8;
-  margin-bottom: .1rem;
+  line-height: 1.25;
+  margin-bottom: .05rem;
+  overflow-wrap: anywhere;
 }
 
 .member-card__dates{
