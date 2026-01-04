@@ -1,6 +1,6 @@
 ---
 title: Measuring The Intrinsic Dimension Of Earth Representations
-authors: A. Ravishankar Rao, **Marc Rußwurm**, Konstantin Klemmer, Esther Rolf
+authors: A Rao, **Marc Rußwurm**, Konstantin Klemmer, Esther Rolf
 date: '2025-11-03'
 year: 2025
 link: https://doi.org/10.48550/arxiv.2511.02101
