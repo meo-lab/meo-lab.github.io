@@ -12,7 +12,7 @@ classes: research-topic
 description: Detecting and tracking marine debris from multi-sensor imagery to support monitoring and response.
 ---
 
-Marine plastic pollution is hard to measure at scale: field surveys are costly and sparse, so we use remote sensing for repeatable coverage—making detection robust across conditions, sensors, and geographies. Our research develops end-to-end, multi-scale monitoring pipelines that connect in-situ and camera observations (ground truth and process understanding), controlled field experiments (detectability limits and calibration), and large-scale satellite monitoring to map and track litter hotspots over time 
+Marine plastic pollution is hard to measure at scale: field surveys are costly and sparse, so we use remote sensing for repeatable coverage—making detection robust across conditions, sensors, and geographies. Our research develops end-to-end, multi-scale monitoring pipelines that connect in-situ and camera observations (ground truth and process understanding), controlled field experiments (detectability limits and calibration), and large-scale satellite monitoring to map and track litter hotspots over time.
 
 ---
 
@@ -58,6 +58,13 @@ Main contributions:
 #### Folkert Hellinga MSc Award for Gabriele Tijunaityte for her [MSc thesis: double acquisition across sensors (2025)](https://edepot.wur.nl/695474)
 - MSc thesis exploring **double-image / multi-sensor acquisition strategies** for monitoring drifting marine litter.  
 
+### [SAMSelect: A Spectral Index Search for Marine Debris Visualization using Segment Anything](https://ieeexplore.ieee.org/document/11028606) (IEEE Geoscience and Remote Sensing Letters, 2025)
+
+Main contributions:
+- Develops **SAMSelect**, an algorithm that **automates spectral band / index selection for 3-channel visualizations** by using **Segment Anything (SAM)** as a **proxy for expert visual photo-interpretation**.
+- Performs an **exhaustive search** over band composites and spectral-index families, selecting the visualization that **maximizes agreement (IoU)** between SAM segmentations and a **small set of expert annotations**.
+- Discovers **previously underused band combinations** for marine debris visualization (e.g., **NDI(B2, B8)**) that improve over common baselines like **NDVI** and **FDI** in the evaluated Sentinel-2 scenes.
+- Positions the approach as a **general-purpose workflow** for quickly finding salient visualizations for other multispectral sensors and applications.
 
 ---
 
