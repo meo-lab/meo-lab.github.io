@@ -126,11 +126,11 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Developing machine learning models for socio-economic & environmental analysis with Earth observation data"
   location         : University of Bonn
-  email            : marc.russwurm@ilr.uni-bonn.de
+  email            : marc.russwurm@uni-bonn.de
   links:
-    - label: "marc.russwurm@ilr.uni-bonn.de"
+    - label: "marc.russwurm@uni-bonn.de"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:marc.russwurm@ilr.uni-bonn.de"
+      url: "mailto:marc.russwurm@uni-bonn.de"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
