@@ -52,5 +52,47 @@
   "wessel eshuis": {
     "openalex_author_id": null,
     "note": "no candidates"
+  },
+  "alexandros timoleon": {
+    "openalex_author_id": null,
+    "note": "no candidates"
+  },
+  "britt thuis": {
+    "openalex_author_id": null,
+    "note": "no candidates"
+  },
+  "joost van dalen": {
+    "openalex_author_id": "https://openalex.org/A5074383474",
+    "picked_display_name": "Joost van Dalen",
+    "picked_institution": null,
+    "picked_works_count": 4
+  },
+  "naut engelsma": {
+    "openalex_author_id": null,
+    "note": "no candidates"
+  },
+  "ryan amaudruz": {
+    "openalex_author_id": "https://openalex.org/A5120016987",
+    "picked_display_name": "Ryan Amaudruz",
+    "picked_institution": null,
+    "picked_works_count": 3
+  },
+  "stijn peeters": {
+    "openalex_author_id": "https://openalex.org/A5079076023",
+    "picked_display_name": "Frederick W. Thielen",
+    "picked_institution": null,
+    "picked_works_count": 70
+  },
+  "tessa ooms": {
+    "openalex_author_id": "https://openalex.org/A5124962969",
+    "picked_display_name": "Tessa Ooms",
+    "picked_institution": null,
+    "picked_works_count": 2
+  },
+  "youchul jeong": {
+    "openalex_author_id": "https://openalex.org/A5113666842",
+    "picked_display_name": "Youchul Jeong",
+    "picked_institution": null,
+    "picked_works_count": 25
   }
 }
