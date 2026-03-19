@@ -8,6 +8,6 @@ former_positions:
 label: leader
 image: /assets/images/members/marc.jpg
 website: https://www.marcrusswurm.com
-openalex_author_id: a5012237329
+openalex_author_id: A5121515104
 order: 1
 ---
