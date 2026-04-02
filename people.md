@@ -6,6 +6,7 @@ permalink: /people/
 
 {% assign leaders = site.members | where: "label", "leader" | sort: "order" %}
 {% assign phds = site.members | where: "label", "PhD" | sort: "order" %}
+{% assign visiting = site.members | where: "label", "Visiting" | sort: "name" %}
 {% assign msc_all = site.members | where: "label", "MSc" %}
 {% assign current_msc = msc_all | where: "current_msc", true | sort: "end" | reverse %}
 {% assign former_msc = msc_all | where_exp: "m", "m.current_msc != true" | sort: "end" | reverse %}
@@ -65,6 +66,35 @@ permalink: /people/
     </div>
   {% endfor %}
 </div>
+
+{% if visiting.size > 0 %}
+## Visiting Scholars
+
+<div class="phd-list">
+  {% for m in visiting %}
+    <div class="phd-card">
+      {% if m.image %}
+        <div class="phd-card__photo">
+          <img src="{{ m.image | relative_url }}" alt="{{ m.name }}">
+        </div>
+      {% endif %}
+      <div class="phd-card__body">
+        <div class="phd-card__name">
+          {% if m.website %}
+            <a href="{{ m.website }}" target="_blank" rel="noopener">{{ m.name }}</a>
+          {% else %}
+            {{ m.name }}
+          {% endif %}
+        </div>
+        <div class="phd-card__meta">{{ m.position }}</div>
+        {% if m.topic or m.visiting_topic %}
+          <div class="phd-card__topic">{{ m.topic | default: m.visiting_topic }}</div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
 
 ## Current MSc Students (Wageningen)
 
