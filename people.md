@@ -11,7 +11,7 @@ permalink: /people/
 {% assign current_msc = msc_all | where: "current_msc", true | sort: "end" | reverse %}
 {% assign former_msc = msc_all | where_exp: "m", "m.current_msc != true" | sort: "end" | reverse %}
 
-## Junior Research Group Leader
+## Jun. Prof. & Emmy Noether Group Leader
 
 <div class="leader-card">
   {% for m in leaders %}
@@ -95,38 +95,6 @@ permalink: /people/
   {% endfor %}
 </div>
 {% endif %}
-
-## Current MSc Students (Wageningen)
-
-<ul class="member-compact-list">
-  {% for m in current_msc %}
-    <li class="member-compact__item">
-      {% if m.image %}
-        <span class="member-compact__photo">
-          <img src="{{ m.image | relative_url }}" alt="{{ m.name }}">
-        </span>
-      {% endif %}
-      <span class="member-compact__body">
-        <span class="member-compact__name">
-          {% if m.website %}
-            <a href="{{ m.website }}" target="_blank" rel="noopener">{{ m.name }}</a>
-          {% else %}
-            {{ m.name }}
-          {% endif %}
-        </span>
-        {% if m.thesis_title %}
-          <span class="member-compact__thesis">
-            {% if m.thesis_url %}
-              <a href="{{ m.thesis_url }}" target="_blank" rel="noopener">{{ m.thesis_title }}</a>
-            {% else %}
-              {{ m.thesis_title }}
-            {% endif %}
-          </span>
-        {% endif %}
-      </span>
-    </li>
-  {% endfor %}
-</ul>
 
 ## Former MSc Students
 
