@@ -14,6 +14,6 @@ The group was established in February 2026 at the [University of Bonn](https://w
 
 ## Contact
 
-Marc Rußwurm (Junior Research Group Leader) ---
+Marc Rußwurm (Jun. Prof. & Emmy Noether Group Leader) ---
 marc.russwurm@uni-bonn.de   ---
 Meckenheimer Allee 174, 53115 Bonn
