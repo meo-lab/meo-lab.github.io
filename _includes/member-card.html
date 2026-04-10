@@ -4,6 +4,7 @@
       <img
         src="{{ include.member.image | relative_url }}"
         alt="{{ include.member.name }}"
+        {% if include.member.photo_credit %}title="{{ include.member.photo_credit }}"{% endif %}
         loading="lazy"
       >
     {% endif %}

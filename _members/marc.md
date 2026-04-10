@@ -7,6 +7,7 @@ former_positions:
     - Doctoral Researcher TUM (2018 - 2021)
 label: leader
 image: /assets/images/members/marc.jpg
+photo_credit: "Photo: Gregor Hübl/Universität Bonn"
 website: https://www.marcrusswurm.com
 openalex_author_id: A5121515104
 order: 1
