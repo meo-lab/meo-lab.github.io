@@ -2,6 +2,8 @@
 name: Tessa Ooms
 position: "Former MSc Student (Wageningen)"
 label: MSc
+start: 2025
+end: 2026
 website: https://www.linkedin.com/in/tessa-ooms-8a5898225/
 image: /assets/images/members/tessa.jpg
 thesis_title: "CoastalSatCLIP - A Slepian Approach to Geographic Location Encoding"

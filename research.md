@@ -18,7 +18,7 @@ permalink: /research/
 
 {% assign papers = site.publications | sort: "year" | reverse %}
 
-<ul class="papers-list">
+<ul class="papers-list papers-list--home-style">
   {% for p in papers %}
     <li class="papers-list__item">
       <span class="papers-list__authors">
@@ -28,7 +28,13 @@ permalink: /research/
         <a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>
       </span>
       <span class="papers-list__venue">
-        — {{ p.venue }}{% if p.year %} ({{ p.year }}){% endif %}
+        — {{ p.venue }}
+        {% if p.year %}
+          {% assign year_str = p.year | append: '' %}
+          {% unless p.venue contains year_str %}
+            ({{ p.year }})
+          {% endunless %}
+        {% endif %}
       </span>
     </li>
   {% endfor %}

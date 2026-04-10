@@ -35,7 +35,11 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 collections:
+  collaborators:
+    output: false
   members:
+    output: false
+  news:
     output: false
   publications:
     output: false
@@ -125,7 +129,7 @@ author:
   name             : #"MIRS Research Group"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Developing machine learning models for socio-economic & environmental analysis with Earth observation data"
-  location         : University of Bonn
+  location         : University of Bonn, Institute for Food and Resource Economics
   email            : marc.russwurm@uni-bonn.de
   links:
     - label: "marc.russwurm@uni-bonn.de"

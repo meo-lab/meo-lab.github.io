@@ -669,3 +669,6 @@ body::before{
 .page__content {
   backdrop-filter: blur(0px);
 }
+
+/* Custom overrides imported last so they win over the theme defaults */
+@import "minimal-mistakes/custom";
