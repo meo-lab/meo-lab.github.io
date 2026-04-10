@@ -1,6 +1,6 @@
 ---
 name: Marc Rußwurm
-position: "Group Leader"
+position: "Jun. Prof. & Emmy Noether Group Leader"
 former_positions: 
     - Assistant Professor Wageningen (2023-Feb 2026)
     - Postdoctoral Researcher EPFL (2021-2023)
