@@ -94,5 +94,11 @@
     "picked_display_name": "Youchul Jeong",
     "picked_institution": null,
     "picked_works_count": 25
+  },
+  "harkaitz goyena baroja": {
+    "openalex_author_id": "https://openalex.org/A5125155177",
+    "picked_display_name": "Harkaitz Goyena Baroja",
+    "picked_institution": null,
+    "picked_works_count": 1
   }
 }
