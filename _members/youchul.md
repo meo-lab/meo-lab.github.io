@@ -1,7 +1,7 @@
 ---
 name: Youchul Jeong
 position_long: "External PhD at University of the Aegean, Greece"
-position: External PhD
+position: External PhD Candidate at the University of the Aegean
 topic: "Marine Litter Detection from UAV imagery"
 label: PhD
 image: /assets/images/members/youchul.jpg

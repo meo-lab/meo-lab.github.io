@@ -1,7 +1,7 @@
 ---
 name: Vishal Nedungadi
 position_long: External PhD Candidate at Wageningen University, Netherlands
-position: External PhD
+position: External PhD Candidate at Wageningen University
 topic: "Distribution Shifts in Agriculture"
 label: PhD
 image: /assets/images/members/vishal.jpg
