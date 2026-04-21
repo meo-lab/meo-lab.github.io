@@ -5,7 +5,7 @@ authors: '**Claire Robin**, Markus Zehner, Laura Dénise Nadolski, Vitus Benson,
 date: '2026-01-01'
 year: 2026
 link: https://doi.org/10.2139/ssrn.6362223
-venue: SSRN Electronic Journal
+venue: 'SSRN (Preprint, 2026)'
 order: 4
 openalex_work_id: W7134124036
 dedupe_key: doi:https://doi.org/10.2139/ssrn.6362223
