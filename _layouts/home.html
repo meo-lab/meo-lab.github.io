@@ -49,7 +49,7 @@ layout: archive
 
 {% assign news_items = site.news | sort: "date" | reverse %}
 <div class="home-news">
-  {% for item in news_items limit:3 %}
+  {% for item in news_items limit:5 %}
     <article class="home-news__item">
       <div class="home-news__date">{{ item.date | date: "%b %-d, %Y" }}</div>
       <div class="home-news__content">
