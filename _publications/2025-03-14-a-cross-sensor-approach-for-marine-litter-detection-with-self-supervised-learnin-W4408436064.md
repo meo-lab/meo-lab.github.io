@@ -4,7 +4,7 @@ authors: Emanuele Dalsasso, **Marc Rußwurm**, Christian Donner, Robin de Vries,
 date: '2025-03-14'
 year: 2025
 link: https://doi.org/10.5194/egusphere-egu25-8279
-venue: ''
+venue: EGU Abstract
 order: 6
 openalex_work_id: W4408436064
 dedupe_key: doi:https://doi.org/10.5194/egusphere-egu25-8279
