@@ -1,5 +1,5 @@
 ---
-title: Self-supervised pre-training enables marine debris detection across sensors
+title: Self-Supervised Pre-Training Enables Marine Debris Detection Across Sensors
 authors: Emanuele Dalsasso, **Marc Rußwurm**, Christian Donner, Samuel Darmon, Robin de Vries, Michele Volpi, Devis Tuia
 date: '2026-01-01'
 year: 2026

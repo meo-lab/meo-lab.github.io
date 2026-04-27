@@ -1,5 +1,5 @@
 ---
-title: Tslearn, a Machine Learning Toolkit for Time Series Data
+title: Tslearn, A Machine Learning Toolkit For Time Series Data
 authors: Romain Tavenard, Johann Faouzi, Gilles Vandewiele, Felix Divo, Guillaume Androz, Chester Holtz, Marie C. Payne, Roman
   Yurchak, **Marc Rußwurm**, Kushal Kolar, Eli Woods
 date: '2020-01-01'

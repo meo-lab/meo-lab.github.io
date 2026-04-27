@@ -1,5 +1,5 @@
 ---
-title: Time Dependent Image Generation of Plants from Incomplete Sequences with CNN-Transformer
+title: Time Dependent Image Generation Of Plants From Incomplete Sequences With CNN-Transformer
 authors: Lukas Drees, Immanuel Weber, **Marc Rußwurm**, Ribana Roscher
 date: '2022-01-01'
 year: 2022

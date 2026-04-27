@@ -1,5 +1,5 @@
 ---
-title: 'From General to Specialized: The Need for Foundational Models in Agriculture'
+title: 'From General To Specialized: The Need For Foundational Models In Agriculture'
 authors: Vishal Nedungadi, Xiong Xiong, Adriaan Potze, Roeland van Bree, Tianlin Lin, **Marc Rußwurm**, Ioannis N. Athanasiadis
 date: '2025-07-08'
 year: 2025

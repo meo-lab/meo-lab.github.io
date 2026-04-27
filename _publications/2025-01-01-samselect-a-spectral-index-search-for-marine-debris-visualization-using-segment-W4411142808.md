@@ -1,5 +1,5 @@
 ---
-title: 'SAMSelect: A Spectral Index Search for Marine Debris Visualization Using Segment Anything'
+title: 'SAMSelect: A Spectral Index Search For Marine Debris Visualization Using Segment Anything'
 authors: Joost van Dalen, Yuki M. Asano, **Marc Rußwurm**
 date: '2025-01-01'
 year: 2025

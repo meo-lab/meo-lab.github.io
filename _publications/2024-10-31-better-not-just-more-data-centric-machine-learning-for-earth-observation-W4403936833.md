@@ -1,5 +1,5 @@
 ---
-title: 'Better, Not Just More: Data-Centric Machine Learning for Earth Observation'
+title: 'Better, Not Just More: Data-Centric Machine Learning For Earth Observation'
 authors: Ribana Roscher, **Marc Rußwurm**, Caroline Gevaert, Michael Kampffmeyer, Jefersson A. dos Santos, Maria Vakalopoulou,
   Ronny Hänsch, Stine Hansen, Keiller Nogueira, Jonathan Prexl, Devis Tuia
 date: '2024-10-31'

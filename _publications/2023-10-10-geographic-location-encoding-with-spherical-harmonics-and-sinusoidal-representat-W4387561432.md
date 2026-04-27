@@ -1,5 +1,5 @@
 ---
-title: Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks
+title: Geographic Location Encoding With Spherical Harmonics And Sinusoidal Representation Networks
 authors: '**Marc Rußwurm**, Konstantin Klemmer, Esther Rolf, Robin Zbinden, Devis Tuia'
 date: '2024-01-16'
 year: 2024

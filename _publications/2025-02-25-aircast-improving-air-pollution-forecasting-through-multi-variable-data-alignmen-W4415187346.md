@@ -1,5 +1,5 @@
 ---
-title: 'AirCast: Improving Air Pollution Forecasting through Multi-Variable Data Alignment'
+title: 'AirCast: Improving Air Pollution Forecasting Through Multi-Variable Data Alignment'
 authors: '**Vishal Nedungadi**, Muhammad Akhtar Munir, **Marc Rußwurm**, Ron Sarafian, Ioannis N. Athanasiadis, Yinon Rudich,
   Fahad Shahbaz Khan, Salman Khan'
 date: '2025-02-25'

@@ -1,5 +1,5 @@
 ---
-title: 'Spatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models'
+title: 'Spatially Far, Ecologically Close: Evaluating Extrapolation On Vegetation Forecasting Models'
 authors: Claire Robin, Mathieu Weynants, Vale Benson, Nuno Carvalhais, **Marc Rußwurm**, Markus Reichstein
 date: '2024-04-01'
 year: 2024

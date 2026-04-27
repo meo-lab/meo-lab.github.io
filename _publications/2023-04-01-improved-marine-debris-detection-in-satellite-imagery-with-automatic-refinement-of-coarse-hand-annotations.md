@@ -1,5 +1,5 @@
 ---
-title: Improved Marine Debris Detection in Satellite Imagery with Automatic Refinement of Coarse Hand Annotations
+title: Improved Marine Debris Detection In Satellite Imagery With Automatic Refinement Of Coarse Hand Annotations
 authors: '**Marc Rußwurm**, D. Gül, Devis Tuia'
 date: '2023-04-01'
 year: 2023

@@ -1,5 +1,5 @@
 ---
-title: 'DENETHOR: The DynamicEarthNET Dataset for Harmonized, Inter-Operable, Analysis-Ready, Daily Crop Monitoring from Space'
+title: 'DENETHOR: The DynamicEarthNET Dataset For Harmonized, Inter-Operable, Analysis-Ready, Daily Crop Monitoring From Space'
 authors: Lukas Kondmann, Aysim Toker, **Marc Rußwurm**, Andrés Camero, Devis Peressuti, Grega Milčinski, Pierre-Philippe Mathieu,
   Nicolas Longépé, Timothy Davis, Giovanni Marchisio, Laura Leal-Taixé, Xiao Xiang Zhu
 date: '2021-08-25'

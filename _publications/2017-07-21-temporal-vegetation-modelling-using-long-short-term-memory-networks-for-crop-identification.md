@@ -1,5 +1,6 @@
 ---
-title: Temporal Vegetation Modelling Using Long Short-Term Memory Networks for Crop Identification from Medium-Resolution Multi-Spectral Satellite Images
+title: Temporal Vegetation Modelling Using Long Short-Term Memory Networks For Crop Identification From Medium-Resolution
+  Multi-Spectral Satellite Images
 authors: '**Marc Rußwurm**, Marco Körner'
 date: '2017-07-21'
 year: 2017

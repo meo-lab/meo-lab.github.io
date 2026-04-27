@@ -1,5 +1,5 @@
 ---
-title: Data-Driven Feature Learning with Discriminative Models for Satellite Time Series
+title: Data-Driven Feature Learning With Discriminative Models For Satellite Time Series
 authors: '**Marc Rußwurm**'
 date: '2022-02-23'
 year: 2022

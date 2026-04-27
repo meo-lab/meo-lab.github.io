@@ -1,5 +1,5 @@
 ---
-title: River Plastic Hotspot Detection from Space
+title: River Plastic Hotspot Detection From Space
 authors: Ámbar Pérez-García, Graciela Amanda, José F. López, **Marc Rußwurm**, Tim van Emmerik
 date: '2025-12-29'
 year: 2025

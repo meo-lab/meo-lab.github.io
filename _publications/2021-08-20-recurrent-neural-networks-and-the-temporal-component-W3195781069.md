@@ -1,5 +1,5 @@
 ---
-title: Recurrent Neural Networks and the Temporal Component
+title: Recurrent Neural Networks And The Temporal Component
 authors: Marco Körner, **Marc Rußwurm**
 date: '2021-08-20'
 year: 2021

@@ -1,5 +1,5 @@
 ---
-title: 'SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery'
+title: 'SatCLIP: Global, General-Purpose Location Embeddings With Satellite Imagery'
 authors: Konstantin Klemmer, Esther Rolf, Caleb Robinson, Lester Mackey, **Marc Rußwurm**
 date: '2025-04-11'
 year: 2025

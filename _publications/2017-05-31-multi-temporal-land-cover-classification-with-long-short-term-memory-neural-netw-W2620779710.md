@@ -1,5 +1,6 @@
 ---
-title: Multitemporal Crop Identification from Medium-Resolution Multi-Spectral Satellite Images Based on Long Short-Term Memory Neural Networks
+title: Multitemporal Crop Identification From Medium-Resolution Multi-Spectral Satellite Images Based On Long Short-Term Memory
+  Neural Networks
 authors: '**Marc Rußwurm**, Marco Körner'
 date: '2017-05-31'
 year: 2017

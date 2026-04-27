@@ -1,5 +1,5 @@
 ---
-title: 'NaT-ReX: Naturalness Assessment with Transformer-Based Reliable Explainability'
+title: 'NaT-ReX: Naturalness Assessment With Transformer-Based Reliable Explainability'
 authors: Ahmed Emam, Mohamed Farag, **Marc Rußwurm**, Ribana Roscher
 date: '2026-01-01'
 year: 2025
