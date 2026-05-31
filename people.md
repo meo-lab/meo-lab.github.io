@@ -4,10 +4,11 @@ title: People
 permalink: /people/
 ---
 
-{% assign leaders = site.members | where: "label", "leader" | sort: "order" %}
-{% assign phds = site.members | where: "label", "PhD" | sort: "order" %}
-{% assign visiting = site.members | where: "label", "Visiting" | sort: "name" %}
-{% assign msc_all = site.members | where: "label", "MSc" %}
+{% assign visible_members = site.members | where_exp: "m", "m.hide != true" %}
+{% assign leaders = visible_members | where: "label", "leader" | sort: "order" %}
+{% assign phds = visible_members | where: "label", "PhD" | sort: "order" %}
+{% assign visiting = visible_members | where: "label", "Visiting" | sort: "name" %}
+{% assign msc_all = visible_members | where: "label", "MSc" %}
 {% assign current_msc = msc_all | where: "current_msc", true | sort: "end" | reverse %}
 {% assign former_msc = msc_all | where_exp: "m", "m.current_msc != true" | sort: "end" | reverse %}
 {% assign collaborators = site.collaborators | sort: "start" | reverse %}

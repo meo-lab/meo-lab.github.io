@@ -24,7 +24,13 @@
       {% endif %}
     </div>
 
-    <div class="member-card__position">{{ include.member.position }}</div>
+    <div class="member-card__position">
+      {% if include.member.position_url %}
+        <a href="{{ include.member.position_url | relative_url }}">{{ include.member.position }}</a>
+      {% else %}
+        {{ include.member.position }}
+      {% endif %}
+    </div>
 
 
     {% if include.show_thesis != false and include.member.thesis_title %}
