@@ -16,6 +16,20 @@ Marine plastic pollution is hard to measure at scale: field surveys are costly a
 
 ---
 
+### [Cross-Sensor Matching of Marine Litter Patches in Satellite Double Acquisitions](/publications/2026-08-07-cross-sensor-matching-marine-litter-patches-patchmatch-eccv2026/) (ECCV 2026 Marine Vision Workshop — Poster)
+
+<!-- TODO: add PatchMatch illustration image here once provided -->
+
+Introduces **PatchMatch**, a CLIP-based method for **re-identifying the same marine litter patches** across near-simultaneous **Sentinel-2 and PlanetScope** satellite acquisitions, bridging differences in spectral bands and spatial resolution.
+
+Main contributions:
+- Proposes a **CLIP-based patch-matching framework** that learns cross-sensor correspondences between medium- and high-resolution satellite imagery of the same marine litter.
+- Releases a **manually annotated benchmark dataset** pairing litter patches across sensor acquisitions.
+- Provides **open-source code** to enable future research on automated, time-aware monitoring of marine plastic transport.
+- Authors: Gabrielė Tijūnaitytė, Marc Rußwurm, Emanuele Dalsasso
+
+---
+
 ### [Exploring plastic detectability on riverbanks using remote sensing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5779542) (SSRN Preprint, 2025, under review)
 
 ![/assets/images/research/marinelitter.jpg](/assets/images/research/marinelitter.jpg)
