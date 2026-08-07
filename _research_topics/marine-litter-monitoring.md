@@ -26,7 +26,7 @@ Main contributions:
 - Proposes a **CLIP-based patch-matching framework** that learns cross-sensor correspondences between medium- and high-resolution satellite imagery of the same marine litter.
 - Releases a **manually annotated benchmark dataset** pairing litter patches across sensor acquisitions.
 - Provides **open-source code** to enable future research on automated, time-aware monitoring of marine plastic transport.
-- Authors: Gabrielė Tijūnaitytė, Marc Rußwurm, Emanuele Dalsasso
+- Authors: Gabrielė Tijūnaitytė, Emanuele Dalsasso, Marc Rußwurm
 
 ---
 
