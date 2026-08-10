@@ -104,5 +104,11 @@
   "open phd position": {
     "openalex_author_id": null,
     "note": "no candidates"
+  },
+  "sawssen hannachi": {
+    "openalex_author_id": "https://openalex.org/A5139135244",
+    "picked_display_name": "sawssen hannachi",
+    "picked_institution": null,
+    "picked_works_count": 2
   }
 }
