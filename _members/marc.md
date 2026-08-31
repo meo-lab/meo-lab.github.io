@@ -1,6 +1,6 @@
 ---
 name: Marc Rußwurm
-position: "Incoming Jun. Prof. & Emmy Noether Group Leader"
+position: "Jun. Prof. & Emmy Noether Group Leader"
 former_positions: 
     - Jun. Research Group Leader (02/2026-09/2026)
     - Assistant Professor Wageningen (2023-02/2026)
