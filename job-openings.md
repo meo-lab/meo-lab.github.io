@@ -13,7 +13,7 @@ permalink: /job-openings/
   <div class="job-posting__letter">
 
     <h2 style="color:#163f74; font-size:1.35rem; margin: 0 0 0.5rem;">Student Assistant (SHK) – Neural Earth Fields Hackathon</h2>
-    <p style="color:#2d5f9e; font-size:0.88rem; font-weight:700; text-transform:uppercase; letter-spacing:0; margin-bottom:1.2rem;">University of Bonn &nbsp;·&nbsp; Start: as soon as possible &nbsp;·&nbsp; Through December 2026 (incl. hackathon on 7–8 Dec) &nbsp;·&nbsp; 8–20 h/week</p>
+    <p style="color:#2d5f9e; font-size:0.88rem; font-weight:700; text-transform:uppercase; letter-spacing:0; margin-bottom:1.2rem;">University of Bonn &nbsp;·&nbsp; Start: as soon as possible &nbsp;·&nbsp; Through December 2026 (incl. hackathon on 7–8 Dec) &nbsp;·&nbsp; 8–10 h/week</p>
 
     <p>We are looking for a Bachelor's or Master's student at the University of Bonn to support the technical preparation and organization of the <strong>Neural Earth Fields Hackathon</strong>, taking place <strong>7–8 December 2026 in Bonn</strong>.</p>
 
@@ -50,7 +50,7 @@ permalink: /job-openings/
     <ul>
       <li><strong>Start:</strong> as soon as possible</li>
       <li><strong>Duration:</strong> through December 2026, including on-site participation at the hackathon on 7–8 December</li>
-      <li><strong>Workload:</strong> approximately 8–20 hours per week</li>
+      <li><strong>Workload:</strong> approximately 8–10 hours per week</li>
       <li><strong>Eligibility:</strong> Bachelor's or Master's students enrolled at the University of Bonn</li>
       <li><strong>Location:</strong> University of Bonn / Bonn, with on-site participation required for the hackathon on 7–8 December 2026</li>
     </ul>
