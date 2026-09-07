@@ -1,5 +1,5 @@
 ---
-title: 'Assessing the effectiveness of deep embeddings for tree species classification in the Dutch Forest Inventory'
+title: Assessing The Effectiveness Of Deep Embeddings For Tree Species Classification In The Dutch Forest Inventory
 authors: Takayuki Ishikawa, Carmelo Bonannella, Bas J.W. Lerink, **Marc Rußwurm**
 date: '2026-09-01'
 year: 2026
