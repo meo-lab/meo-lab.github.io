@@ -1,1 +1,10 @@
+# More specific lecture deck rules must come before the catch-all
+/teaching/grl/1-why-geospatial-representation-learning/*    /teaching/grl/1-why-geospatial-representation-learning/index.html   200
+/teaching/grl/2-geospatial-data-images-maps-time-series/*    /teaching/grl/2-geospatial-data-images-maps-time-series/index.html   200
+/teaching/grl/3-deep-learning-for-geospatial-prediction/*    /teaching/grl/3-deep-learning-for-geospatial-prediction/index.html   200
+/teaching/grl/4-self-supervised-learning-and-foundation-models/*    /teaching/grl/4-self-supervised-learning-and-foundation-models/index.html   200
+/teaching/grl/5-earth-embeddings-and-location-encoders/*    /teaching/grl/5-earth-embeddings-and-location-encoders/index.html   200
+/teaching/grl/6-spatiotemporal-representations-and-neural-fields/*    /teaching/grl/6-spatiotemporal-representations-and-neural-fields/index.html   200
+/teaching/grl/7-geospatial-retrieval-reasoning-and-agents/*    /teaching/grl/7-geospatial-retrieval-reasoning-and-agents/index.html   200
+# Catch-all for the overview SPA (must be last)
 /teaching/grl/*    /teaching/grl/index.html   200
