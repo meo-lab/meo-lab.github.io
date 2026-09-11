@@ -1,0 +1,13 @@
+import{H as e,L as t,T as n,X as r,Z as i,_ as a,_t as o,g as s,ht as c,v as l}from"./modules/shiki-zyo0kV5v.js";import{nt as u,rt as d}from"./index-BloXw3bi.js";import{t as f}from"./bonn-content-CTGzeGQJ.js";var p=`/teaching/grl/1-why-geospatial-representation-learning/assets/representations_0005_Background-Mf9jouKg.png`,m=`/teaching/grl/1-why-geospatial-representation-learning/assets/representations_0000_00_sun-BEQLyiUz.png`,h=`/teaching/grl/1-why-geospatial-representation-learning/assets/representations_0001_01_reflect-C7FkgdLu.png`,g=`/teaching/grl/1-why-geospatial-representation-learning/assets/representations_0004_03_vision-CqKfVx0z.png`,_=`/teaching/grl/1-why-geospatial-representation-learning/assets/representations_0003_04_camera-DgMGt7Pa.png`,v=`/teaching/grl/1-why-geospatial-representation-learning/assets/representations_0002_05_sat-CvxErUWe.png`,y={class:`flex justify-center`},b={class:`relative h-[320px] w-full max-w-[900px]`},x={src:m,class:`absolute inset-0 h-full w-full object-contain rounded-xl`,alt:`Sun / illumination layer`},S={src:h,class:`absolute inset-0 h-full w-full object-contain rounded-xl`,alt:`Reflectance layer`},C={src:g,class:`absolute inset-0 h-full w-full object-contain rounded-xl`,alt:`Human vision (RGB) layer`},w={src:_,class:`absolute inset-0 h-full w-full object-contain rounded-xl`,alt:`Photo camera RGB filters layer`},T={src:v,class:`absolute inset-0 h-full w-full object-contain rounded-xl`,alt:`Multi-spectral satellite sensors layer`},E={__name:`slides.md__slidev_7`,setup(m){let{$slidev:h,$nav:g,$clicksContext:_,$clicks:v,$page:E,$renderContext:D,$frontmatter:O}=d();return _.setup(),(d,m)=>{let h=e(`click`);return t(),a(f,o(n(c(u)(c(O),6))),{default:r(()=>[m[1]||=s(`h1`,null,`We perceive our world in representations`,-1),m[2]||=s(`h2`,null,`Example: Vision`,-1),s(`div`,y,[s(`div`,b,[m[0]||=s(`img`,{src:p,class:`absolute inset-0 h-full w-full object-contain rounded-xl`,alt:`Background layer`},null,-1),i(s(`img`,x,null,512),[[h,1]]),i(s(`img`,S,null,512),[[h,2]]),i(s(`img`,C,null,512),[[h,3]]),i(s(`img`,w,null,512),[[h,4]]),i(s(`img`,T,null,512),[[h,5]])]),l(`-
+  <div class="space-y-5 max-w-[380px]">
+    <blockquote v-click class="blockquote1">
+      Physically, sunlight of various wavelengths gets reflected from objects. Our eyes are evolutionarily engineered to only perceive three colors.
+    </blockquote>
+    <blockquote v-click class="blockquote2">
+      Photo cameras are technically engineered to mimic human vision and capture Red-Green-Blue light through filters.
+    </blockquote>
+    <blockquote v-click class="blockquote3">
+      Multi-spectral satellite sensors are built to capture more spectral wavelengths.
+    </blockquote>
+  </div>
+  -`)])]),_:1},16)}}};export{E as default};
