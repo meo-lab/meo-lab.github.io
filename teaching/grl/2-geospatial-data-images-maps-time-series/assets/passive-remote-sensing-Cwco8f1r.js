@@ -1,0 +1,1 @@
+var e=`/teaching/grl/2-geospatial-data-images-maps-time-series/assets/passive-remote-sensing-BxDa-aqR.png`;export{e as t};

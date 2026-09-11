@@ -1,0 +1,1 @@
+var e=`/teaching/grl/2-geospatial-data-images-maps-time-series/assets/gis-buIeqURj.jpg`;export{e as t};

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Geospatial Data: Sources, Modalities, and Applications - Slidev</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&family=Fira+Code:wght@200;400;600&display=swap" type="text/css">
-<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/gis.jpg">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/Globe_Atlantic.svg.webp">
 <link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/cartesian.png">
 <link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/cartesian_sppherical.png">
 <link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/ellipsoidyz.png">
@@ -18,15 +18,49 @@
 <link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/Fig_1.4.1_Atmospheric_circulation_cells,_dominant_wind_directions.png">
 <link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/Atmospheric_CO2.webp">
 <link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/modis-ndvi-time-series-animation.gif">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/epic-earth-globespin_no_bg.gif">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/geospatial-data-sources-overview.svg">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/Globe_Atlantic.svg">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/geospatial-data-overview.svg">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/passive-remote-sensing.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/active-remote-sensing.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/bonn_VHR.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/bonn_S2.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/bonn_modis.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/zoom-earth-bonn-satellite.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/epic-earth-globespin.gif">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/bonn_S1.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/radar_altimetry_credits__ADS_Figure_Saskia_Esselborn_GFZ.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/bonn_gedi_zoom.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/radar-foreshortening.svg">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/Temporal-mean-image-of-TerraSAR-X-data-Sensor-look-direction-left-to-right-flight_W640.jpg">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/gedi-waveform-explanation.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/GEDI1_cretidtsUniversity_of_Maryland_NASA.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/grace-fo-satellite_768p.jpg">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/grace_tracks_2017_credits_(Ch_Dahle_GFZ).gif">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/GRACE_globe_animation.gif">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/gis.jpg">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/vector-geometry-types.svg">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/gadm-germany.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/nuts-levels.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/lulc-global.jpg">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/lulc-amsterdam.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/osm_popp_db.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/osm_popp.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/flightradar.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/marinetraffic.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/strava_heatmap.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/population_density.png">
+<link rel="preload" as="image" href="/teaching/grl/2-geospatial-data-images-maps-time-series/./figures/wohnlagen.png">
 <link rel="icon" href="https://cdn.jsdelivr.net/gh/slidevjs/slidev/assets/favicon.png">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta property="slidev:version" content="52.19.1">
-<meta property="og:title" content="Geospatial Data: Sources, Modalities, and Applications - Slidev">  <script type="module" crossorigin src="/teaching/grl/2-geospatial-data-images-maps-time-series/assets/index-C6vuBdRN.js"></script>
+<meta property="og:title" content="Geospatial Data: Sources, Modalities, and Applications - Slidev">  <script type="module" crossorigin src="/teaching/grl/2-geospatial-data-images-maps-time-series/assets/index-Kdedgs_g.js"></script>
   <link rel="modulepreload" crossorigin href="/teaching/grl/2-geospatial-data-images-maps-time-series/assets/rolldown-runtime-hePW80VL.js">
   <link rel="modulepreload" crossorigin href="/teaching/grl/2-geospatial-data-images-maps-time-series/assets/modules/shiki-C2X_BFw-.js">
   <link rel="modulepreload" crossorigin href="/teaching/grl/2-geospatial-data-images-maps-time-series/assets/modules/vue-D0Vq5WJb.js">
   <link rel="stylesheet" crossorigin href="/teaching/grl/2-geospatial-data-images-maps-time-series/assets/modules/shiki-BrmBd2_v.css">
-  <link rel="stylesheet" crossorigin href="/teaching/grl/2-geospatial-data-images-maps-time-series/assets/index-CI7znSBN.css">
+  <link rel="stylesheet" crossorigin href="/teaching/grl/2-geospatial-data-images-maps-time-series/assets/index-DiORiIV0.css">
 </head>
 <body>
   <div id="app"></div>
