@@ -1,1 +1,0 @@
-var e=`/teaching/grl/3-deep-learning-for-geospatial-prediction/assets/uni-bonn-logo--JevLN6q.png`;export{e as t};

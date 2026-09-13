@@ -1,0 +1,1 @@
+var e=`/teaching/grl/6-self-supervised-deep-learning/assets/uni-bonn-logo--JevLN6q.png`;export{e as t};
