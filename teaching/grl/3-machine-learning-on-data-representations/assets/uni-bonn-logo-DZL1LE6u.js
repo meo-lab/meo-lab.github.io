@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-machine-learning-on-data-representations/assets/uni-bonn-logo--JevLN6q.png`;export{e as t};

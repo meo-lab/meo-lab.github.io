@@ -1,1 +1,0 @@
-var e=`/teaching/grl/3-deep-learning-i/assets/loss_surfaces-D7MDRibl.svg`;export{e as t};
