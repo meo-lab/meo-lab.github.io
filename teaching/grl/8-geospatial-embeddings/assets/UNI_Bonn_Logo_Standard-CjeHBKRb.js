@@ -1,0 +1,1 @@
+var e=`/teaching/grl/8-geospatial-embeddings/assets/UNI_Bonn_Logo_Standard-CCvS_lK1.svg`;export{e as t};

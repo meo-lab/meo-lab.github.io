@@ -1,1 +1,0 @@
-var e=`/teaching/grl/9-synthesis-choosing-the-right-representation/assets/uni-bonn-logo--JevLN6q.png`;export{e as t};

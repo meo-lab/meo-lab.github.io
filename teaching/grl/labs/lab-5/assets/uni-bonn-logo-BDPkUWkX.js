@@ -1,1 +1,0 @@
-var e=`/teaching/grl/labs/lab-5/assets/uni-bonn-logo--JevLN6q.png`;export{e as t};
