@@ -1,0 +1,1 @@
+var e=`/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/uni-bonn-logo-BMvlYf2U.svg`;export{e as t};

@@ -1,1 +1,0 @@
-var e=`/teaching/grl/2-geospatial-data-images-maps-time-series/assets/UNI_Bonn_Logo_Standard-CCvS_lK1.svg`;export{e as t};

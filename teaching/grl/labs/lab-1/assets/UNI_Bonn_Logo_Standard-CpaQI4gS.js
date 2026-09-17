@@ -1,1 +1,0 @@
-var e=`/teaching/grl/labs/lab-1/assets/UNI_Bonn_Logo_Standard-CCvS_lK1.svg`;export{e as t};

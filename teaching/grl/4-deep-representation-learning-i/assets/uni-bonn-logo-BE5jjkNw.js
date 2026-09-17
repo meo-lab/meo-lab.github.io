@@ -1,0 +1,1 @@
+var e=`/teaching/grl/4-deep-representation-learning-i/assets/uni-bonn-logo-BMvlYf2U.svg`;export{e as t};

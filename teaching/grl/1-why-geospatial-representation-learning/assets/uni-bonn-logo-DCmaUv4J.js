@@ -1,0 +1,1 @@
+var e=`/teaching/grl/1-why-geospatial-representation-learning/assets/uni-bonn-logo-BMvlYf2U.svg`;export{e as t};
