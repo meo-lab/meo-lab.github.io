@@ -10,6 +10,8 @@ main:
     url: /job-openings
   - title: "People"
     url: /people
+  - title: "Teaching"
+    url: /teaching/
   - title: "About"
     url: /about
   # - title: "Sample Posts"
