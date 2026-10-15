@@ -8,7 +8,7 @@ topic_tags:
   - Geospatial AI
 order: 1
 layout: single
-classes: research-topic
+classes: wide research-topic
 description: Learning general-purpose representations that capture spatial, temporal, and contextual signals across Earth observation data.
 ---
 

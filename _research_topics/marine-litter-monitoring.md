@@ -8,7 +8,7 @@ topic_tags:
   - AI Models
 order: 2
 layout: single
-classes: research-topic
+classes: wide research-topic
 description: Detecting and tracking marine debris from multi-sensor imagery to support monitoring and response.
 ---
 
