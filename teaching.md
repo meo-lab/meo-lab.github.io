@@ -12,7 +12,7 @@ permalink: /teaching/
       <iframe
         src="{{ '/teaching/grl/' | relative_url }}"
         title="Geospatial Representation Learning course slides"
-        loading="lazy"
+        onload="var f = this; setTimeout(function () { f.classList.add('is-loaded'); }, 150);"
         allow="fullscreen"
         allowfullscreen>
       </iframe>

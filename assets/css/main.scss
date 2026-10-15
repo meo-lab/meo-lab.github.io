@@ -6,6 +6,9 @@ search: false
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+$link-color: #2d5f9e; // site blue instead of the theme's teal
+$link-color-hover: #163f74;
+$link-color-visited: #2d5f9e; // visited links keep the same color
 $intro-transition: none; // no staggered fade-in on page load; see view transitions in _custom.scss
 @import "minimal-mistakes"; // main partials
 

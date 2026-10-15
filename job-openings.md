@@ -6,13 +6,11 @@ title: Job Openings
 permalink: /job-openings/
 ---
 
+<h2 class="section-label" id="open-positions">Open Positions</h2>
+
+<p class="job-status job-status--none">There are currently no open positions.</p>
+
 <div class="topic-intro" markdown="1">
-
-There are currently no open positions.
-
-</div>
-
-<div class="topic-body" markdown="1">
 
 ## Prospective Students and Researchers
 
