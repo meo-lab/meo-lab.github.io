@@ -632,7 +632,6 @@ search: false
 }
 
 /* 1) Make the page itself transparent */
-html, body { height: 100%; }
 body { background: transparent !important; }
 
 /* 2) Fixed full-viewport background layer */

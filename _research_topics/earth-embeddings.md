@@ -8,18 +8,27 @@ topic_tags:
   - Geospatial AI
 order: 1
 layout: single
+hide_pagination: true
 classes: wide research-topic
 description: Learning general-purpose representations that capture spatial, temporal, and contextual signals across Earth observation data.
 ---
 
 
+<div class="topic-intro" markdown="1">
+
 Learning general-purpose representations that capture **spatial**, **temporal**, and **contextual** signals across Earth.
 
-{% include video id="Mnjrh-uc2Os" provider="youtube" %}
+</div>
+
+<div class="topic-body" markdown="1">
 
 ## Embeddings, explained simply
 
 An **embedding** is a short list of numbers that acts like a *fingerprint* for something complex (an image, text, or a place). Similar fingerprints mean similar content-enabling fast **search**, **grouping**, and **prediction**.
+
+
+{% include video id="Mnjrh-uc2Os" provider="youtube" %}
+
 
 ---
 
@@ -54,7 +63,9 @@ Also available as preprint: [EarthArXiv](https://eartharxiv.org/repository/view/
 - Finds intrinsic dimension is often **much smaller** than the embedding size and varies with **resolution** and **training modality**.
 - Shows intrinsic dimension can correlate with downstream performance and reveal **spatial artifacts**, supporting diagnostics and model selection.
 
----
+</div>
+
+<div class="topic-intro topic-outro" markdown="1">
 
 ## Where we are heading
 
@@ -63,3 +74,5 @@ We build Earth embeddings to enable:
 - **robust transfer** across regions and sensors,
 - **multimodal fusion** (EO, climate, maps, text),
 - and **interpretable representations** with diagnostics that help scientific trust and use.
+
+</div>

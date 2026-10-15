@@ -1,4 +1,5 @@
 ---
+title: "Paper published in Science of Remote Sensing"
 date: 2026-09-01
 ---
 

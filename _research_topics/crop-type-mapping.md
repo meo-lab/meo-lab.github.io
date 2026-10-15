@@ -8,11 +8,18 @@ topic_tags:
   - Deep Learning
 order: 4
 layout: single
+hide_pagination: true
 classes: research-topic
 description: Scalable crop-type mapping from Sentinel time series, with models that generalize across regions and can deliver reliable in-season predictions.
 ---
 
+<div class="topic-intro" markdown="1">
+
 Crop types are best recognized from **how fields change over time** (phenology), not from a single image. Our work focuses on **parcel-level crop mapping** in Europe using **Sentinel-2 time series**, with models that (1) learn directly from raw observations, (2) scale to large areas, and (3) can make **early** predictions while the season is still unfolding.
+
+</div>
+
+<div class="topic-body" markdown="1">
 
 ---
 
@@ -49,3 +56,5 @@ Crop types are best recognized from **how fields change over time** (phenology),
 - Introduces **ELECTS**, a generic mechanism that augments any time-series classifier with a learned **“stop / enough information”** probability.
 - Optimizes a balanced objective of **accuracy + earliness**, enabling reliable crop maps **earlier in the season**.
 - Reduces the amount of data that must be downloaded/processed by stopping once the model is confident—important for operational, large-scale monitoring.
+
+</div>

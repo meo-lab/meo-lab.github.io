@@ -1,0 +1,12 @@
+{%- assign p = include.paper -%}
+{%- assign authors = p.authors -%}
+{%- assign core_team = site.members | where_exp: "m", "m.hide != true" | where_exp: "m", "m.label == 'leader' or m.label == 'PhD'" -%}
+{%- for m in core_team -%}
+  {%- assign bold_name = '**' | append: m.name | append: '**' -%}
+  {%- assign authors = authors | replace: bold_name, m.name | replace: m.name, bold_name -%}
+{%- endfor -%}
+<a class="paper-card" href="{{ p.link }}" target="_blank" rel="noopener">
+  <span class="paper-card__title">{{ p.title }}{% if p.year %} <span class="paper-card__year">{{ p.year }}</span>{% endif %}</span>
+  <span class="paper-card__authors">{{ authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+  <span class="paper-card__venue">{{ p.venue }}</span>
+</a>

@@ -1,4 +1,5 @@
 ---
+title: "Earth Embeddings paper published in IEEE GRSM"
 date: 2026-08-07
 ---
 

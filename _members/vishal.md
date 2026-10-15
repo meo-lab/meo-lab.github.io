@@ -7,7 +7,7 @@ label: PhD
 image: /assets/images/members/vishal.jpg
 website: https://vishalned.github.io/
 openalex_author_id: a5120498980
-order: 3
+order: 5
 start: 2024
 external: true
 ---

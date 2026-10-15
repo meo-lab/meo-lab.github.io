@@ -3,7 +3,8 @@ name: Sawssen Hannachi
 position_long: PhD candidate at the University of Bonn
 position: PhD Candidate
 label: PhD
-image: /assets/images/members/sawssen.jpg
+image: /assets/images/members/sawssen.png
+website: https://www.linkedin.com/in/sawssenhannachi21/
 start: 2026
-order: 6
+order: 2
 ---

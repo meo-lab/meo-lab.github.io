@@ -8,11 +8,18 @@ topic_tags:
   - AI Models
 order: 2
 layout: single
+hide_pagination: true
 classes: wide research-topic
 description: Detecting and tracking marine debris from multi-sensor imagery to support monitoring and response.
 ---
 
+<div class="topic-intro" markdown="1">
+
 Marine plastic pollution is hard to measure at scale: field surveys are costly and sparse, so we use remote sensing for repeatable coverage—making detection robust across conditions, sensors, and geographies. Our research develops end-to-end, multi-scale monitoring pipelines that connect in-situ and camera observations (ground truth and process understanding), controlled field experiments (detectability limits and calibration), and large-scale satellite monitoring to map and track litter hotspots over time.
+
+</div>
+
+<div class="topic-body" markdown="1">
 
 ---
 
@@ -69,7 +76,10 @@ Main contributions:
 #### Snap Snap Track (Open Mind proposal concept, 2025) with Joost van Dalen
 {% include video id="9hsTvXxDU2A" provider="youtube" %}
 
-#### Folkert Hellinga MSc Award for Gabriele Tijunaityte for her [MSc thesis: double acquisition across sensors (2025)](https://edepot.wur.nl/695474)
+### Folkert Hellinga MSc Award for Gabriele Tijunaityte
+
+Awarded for her [MSc thesis: double acquisition across sensors (2025)](https://edepot.wur.nl/695474).
+
 - MSc thesis exploring **double-image / multi-sensor acquisition strategies** for monitoring drifting marine litter.  
 
 ### [SAMSelect: A Spectral Index Search for Marine Debris Visualization using Segment Anything](https://ieeexplore.ieee.org/document/11028606) (IEEE Geoscience and Remote Sensing Letters, 2025)
@@ -80,7 +90,9 @@ Main contributions:
 - Discovers **previously underused band combinations** for marine debris visualization (e.g., **NDI(B2, B8)**) that improve over common baselines like **NDVI** and **FDI** in the evaluated Sentinel-2 scenes.
 - Positions the approach as a **general-purpose workflow** for quickly finding salient visualizations for other multispectral sensors and applications.
 
----
+</div>
+
+<div class="topic-intro topic-outro" markdown="1">
 
 ## What’s next
 
@@ -88,3 +100,5 @@ Current focus areas:
 - **Cross-scale validation:** connecting camera/field observations to satellite detections.
 - **Robust generalization:** reducing false positives via better negatives, site diversity, and uncertainty-aware outputs.
 - **Operational monitoring:** turning detectors into repeatable coastal and river monitoring products (with transparent evaluation and open baselines).
+
+</div>

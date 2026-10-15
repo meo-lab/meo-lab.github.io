@@ -8,10 +8,13 @@ topic_tags:
   - Transfer Learning
 order: 3
 layout: single
+hide_pagination: true
 classes: research-topic
 description: Designing models that adapt quickly to new regions, sensors, and tasks with minimal labeled data.
 ---
 
+
+<div class="topic-intro" markdown="1">
 
 Remote sensing models often fail when moved to a **new region**, **new sensor**, or **new task**—even if the label name stays the same (“urban”, “forest”, “water”).  
 **Meta-learning** tackles this by training models to **adapt quickly**: instead of requiring thousands of new labels, the model can learn a new situation from *just a few* examples (“few-shot”).
@@ -19,7 +22,9 @@ Remote sensing models often fail when moved to a **new region**, **new sensor**,
 ![METEOR concept diagram (EPFL, CC BY-SA)](https://actu.epfl.ch/public/upload/fckeditorimage/6e/48/b1ac79b0.jpg)
 *Image credit: EPFL / Cécilia Carron (CC BY-SA 4.0).*
 
----
+</div>
+
+<div class="topic-body" markdown="1">
 
 ## Why few-shot meta-learning for land cover?
 
@@ -47,4 +52,4 @@ Land cover looks different across the planet (architecture, vegetation seasonali
 Also available via the CVF open-access workshop proceedings:  
 - [CVPRW paper (PDF/HTML)](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Russwurm_Meta-Learning_for_Few-Shot_Land_Cover_Classification_CVPRW_2020_paper.html)
 
-
+</div>

@@ -1,4 +1,5 @@
 ---
+hide_title: true
 layout: single
 title: People
 permalink: /people/
@@ -17,8 +18,7 @@ permalink: /people/
 <div class="people-page">
   <section class="people-section people-section--leader">
     <div class="people-section__header">
-      <div class="people-section__eyebrow">Research Group</div>
-      <h2 class="people-section__title">Jun. Prof. &amp; Emmy Noether Group Leader</h2>
+      <div class="people-section__eyebrow">Group Leader</div>
     </div>
 
     <div class="people-featured">
@@ -30,7 +30,6 @@ permalink: /people/
             </div>
           {% endif %}
           <div class="person-card__content person-card__content--featured">
-            <div class="person-card__label">Group Leader</div>
             <div class="person-card__name person-card__name--featured">
               {% if m.website %}
                 <a href="{{ m.website }}" target="_blank" rel="noopener">{{ m.name }}</a>
@@ -62,11 +61,11 @@ permalink: /people/
       <h2 class="people-section__title">Doctoral Candidates</h2>
     </div>
 
-    <div class="people-grid">
+    <div class="people-grid people-grid--phd">
       {% for m in phds_internal %}
         <article class="person-card">
           {% if m.image %}
-            <div class="person-card__media">
+            <div class="person-card__media{% if m.image_transparent %} person-card__media--transparent{% endif %}">
               <img src="{{ m.image | relative_url }}" alt="{{ m.name }}">
             </div>
           {% endif %}
@@ -92,15 +91,14 @@ permalink: /people/
   {% if phds_external.size > 0 %}
   <section class="people-section">
     <div class="people-section__header">
-      <div class="people-section__eyebrow">Network</div>
       <h2 class="people-section__title">External Doctoral Candidates</h2>
     </div>
 
-    <div class="people-grid">
+    <div class="people-grid people-grid--phd">
       {% for m in phds_external %}
         <article class="person-card">
           {% if m.image %}
-            <div class="person-card__media">
+            <div class="person-card__media{% if m.image_transparent %} person-card__media--transparent{% endif %}">
               <img src="{{ m.image | relative_url }}" alt="{{ m.name }}">
             </div>
           {% endif %}
@@ -134,7 +132,7 @@ permalink: /people/
         {% for m in visiting %}
           <article class="person-card">
             {% if m.image %}
-              <div class="person-card__media">
+              <div class="person-card__media{% if m.image_transparent %} person-card__media--transparent{% endif %}">
                 <img src="{{ m.image | relative_url }}" alt="{{ m.name }}">
               </div>
             {% endif %}

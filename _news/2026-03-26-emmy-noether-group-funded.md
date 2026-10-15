@@ -1,4 +1,5 @@
 ---
+title: "Emmy Noether Group funded by the DFG"
 date: 2026-03-26
 ---
 

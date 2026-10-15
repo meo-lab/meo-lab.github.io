@@ -1,5 +1,5 @@
 <div class="member-card">
-  <div class="member-card__image">
+  <div class="member-card__image{% if include.member.image_transparent %} member-card__image--transparent{% endif %}">
     {% if include.member.image %}
       <img
         src="{{ include.member.image | relative_url }}"

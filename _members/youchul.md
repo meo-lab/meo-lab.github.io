@@ -6,7 +6,7 @@ topic: "Marine Litter Detection from UAV imagery"
 label: PhD
 image: /assets/images/members/youchul.jpg
 website: https://www.linkedin.com/in/youchulj/?trk=public_post_feed-actor-name&originalSubdomain=kr
-order: 4
+order: 6
 start: 2025
 external: true
 ---

@@ -4,27 +4,9 @@ layout: archive
 
 {{ content }}
 
-<section class="home-banner" aria-label="MEO Lab header">
-  <div class="home-banner__inner">
-    <div class="home-banner__brand">
-      <img class="home-banner__ilr" src="{{ '/assets/images/unibonn_ilr.png' | relative_url }}" alt="University of Bonn Institute for Food and Resource Economics">
-      <div class="home-banner__title-group">
-        <h1 class="home-banner__title">MEO Lab</h1>
-        <p class="home-banner__subtitle">Machine Learning in Earth Observation</p>
-      </div>
-      <div class="home-banner__meta">
-        <p>Developing machine learning models for socio-economic &amp; environmental analysis with Earth observation data</p>
-        <p>University of Bonn, Institute for Food and Resource Economics</p>
-        <p>marc.russwurm@uni-bonn.de</p>
-      </div>
-    </div>
-    <div class="home-banner__logo-wrap">
-      <img class="home-banner__logo" src="{{ '/assets/images/meo_logo_tight.png' | relative_url }}" alt="MEO Lab logo">
-    </div>
-  </div>
-</section>
+{% include home-banner.html %}
 
-<h3 class="archive__subtitle">Research Group</h3>
+<h3 class="archive__subtitle section-label">Research Group</h3>
 
 <div class="members-grid">
   {% assign visible_members = site.members | where_exp: "m", "m.hide != true" %}
@@ -46,44 +28,33 @@ layout: archive
   {% endfor %}
 </div>
 
-<h3 class="archive__subtitle">News</h3>
+<h3 class="archive__subtitle section-label home-section-title">News</h3>
 
 {% assign news_items = site.news | sort: "date" | reverse %}
 <div class="home-news">
   {% for item in news_items limit:5 %}
     <article class="home-news__item">
-      <div class="home-news__date">{{ item.date | date: "%b %-d, %Y" }}</div>
-      <div class="home-news__content">
-        {{ item.content | markdownify }}
+      <time class="home-news__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">
+        <span class="home-news__month">{{ item.date | date: "%b %Y" }}</span>
+      </time>
+      <div class="home-news__body">
+        {% if item.title %}<div class="home-news__title">{{ item.title }}</div>{% endif %}
+        <div class="home-news__content">
+          {{ item.content | markdownify }}
+        </div>
       </div>
     </article>
   {% endfor %}
 </div>
 
-<h3 class="archive__subtitle">Recent Papers</h3>
+<h3 class="archive__subtitle section-label home-section-title"><a class="home-section-title__link" href="{{ '/research/#publications' | relative_url }}">Recent Papers</a></h3>
 
 {% assign papers = site.publications | sort: "year" | reverse %}
 
-<ul class="papers-list">
+<div class="paper-cards">
   {% for p in papers limit:5 %}
-    <li class="papers-list__item">
-      <span class="papers-list__authors">
-        {{ p.authors | markdownify | remove: '<p>' | remove: '</p>' }}
-      </span>
-      <span class="papers-list__title">
-        <a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>
-      </span>
-      <span class="papers-list__venue">
-        — {{ p.venue }}
-        {% if p.year %}
-          {% assign year_str = p.year | append: '' %}
-          {% unless p.venue contains year_str %}
-            ({{ p.year }})
-          {% endunless %}
-        {% endif %}
-      </span>
-    </li>
+    {% include paper-card.html paper=p %}
   {% endfor %}
-</ul>
+</div>
 
 {% include paginator.html %}

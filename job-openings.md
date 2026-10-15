@@ -1,10 +1,18 @@
 ---
+hide_title: true
 layout: single
+classes: wide research-topic
 title: Job Openings
 permalink: /job-openings/
 ---
 
+<div class="topic-intro" markdown="1">
+
 There are currently no open positions.
+
+</div>
+
+<div class="topic-body" markdown="1">
 
 ## Prospective Students and Researchers
 
@@ -16,3 +24,5 @@ If you are interested in joining the lab, there are two appropriate routes:
 2. **Talk to me in person.** If you do not yet have a concrete funding opportunity or proposal, the best way to start a conversation is to meet me at a conference, workshop, or other scientific event.
 
 Positions funded directly by my group will be advertised separately through an open call or filled through targeted recruitment. Sending a generic application email does not increase your chances of being considered.
+
+</div>

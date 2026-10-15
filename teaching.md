@@ -1,47 +1,31 @@
 ---
+hide_title: true
 layout: single
 title: Teaching
 permalink: /teaching/
 ---
 
-## [Geospatial Representation Learning](/teaching/grl/)
+<div class="course-list">
 
-M. Rußwurm and the MEO-Lab team will teach the **Geospatial Representation Learning** course at the University of Bonn.
+  <article class="course-card">
+    <div class="course-card__preview">
+      <iframe
+        src="{{ '/teaching/grl/' | relative_url }}"
+        title="Geospatial Representation Learning course slides"
+        loading="lazy"
+        allow="fullscreen"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="course-card__body">
+      <div class="course-card__meta">University of Bonn</div>
+      <h2 class="course-card__title"><a href="https://meo-lab.com/teaching/grl/">Geospatial Representation Learning</a></h2>
+      <p class="course-card__desc">M. Rußwurm and the MEO-Lab team will teach the <strong>Geospatial Representation Learning</strong> course at the University of Bonn.</p>
+      <div class="course-card__actions">
+        <a class="course-card__cta" href="https://meo-lab.com/teaching/grl/">About the course</a>
+        <a class="course-card__cta course-card__cta--secondary" href="https://meo-lab.com/teaching/grl/5">Lectures</a>
+      </div>
+    </div>
+  </article>
 
-<div class="course-slide-embed">
-  <iframe
-    src="/teaching/grl/"
-    title="Geospatial Representation Learning course slides"
-    loading="lazy"
-    allow="fullscreen"
-    allowfullscreen>
-  </iframe>
 </div>
-
-Course information, the starting slide deck, and links to the individual lectures are available at [meo-lab.com/teaching/grl](https://meo-lab.com/teaching/grl/).
-
-<style>
-  .course-slide-embed {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    min-height: 360px;
-    margin: 1.5rem 0 1rem;
-    overflow: hidden;
-    border: 1px solid #d9d9d9;
-    border-radius: 4px;
-    background: #fff;
-  }
-
-  .course-slide-embed iframe {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
-
-  @media (max-width: 600px) {
-    .course-slide-embed {
-      min-height: 220px;
-    }
-  }
-</style>

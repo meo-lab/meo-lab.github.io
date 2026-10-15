@@ -1,4 +1,5 @@
 ---
+title: "Paper accepted in Cell iScience"
 date: 2026-04-21
 ---
 

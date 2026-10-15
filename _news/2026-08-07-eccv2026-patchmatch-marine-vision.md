@@ -1,4 +1,5 @@
 ---
+title: "PatchMatch accepted at the ECCV 2026 Marine Vision Workshop"
 date: 2026-08-07
 ---
 

@@ -1,54 +1,71 @@
-{% capture logo_path %}{{ site.logo }}{% endcapture %}
+{%- assign current_url = page.url | replace: "index.html", "" -%}
+<div class="masthead meo-nav">
+  <nav id="site-nav" class="meo-nav__bar" aria-label="Main navigation">
+    <a class="meo-nav__brand" href="{{ '/' | relative_url }}">
+      <span>MEO Lab</span>
+    </a>
 
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        {% if site.masthead_logos %}
-          <div class="masthead__logos">
-            {% unless logo_path == empty %}
-              <a class="masthead__logo masthead__logo--primary" href="{{ '/' | relative_url }}">
-                <img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}">
-              </a>
-            {% endunless %}
-            {%- for logo in site.masthead_logos -%}
-              <a class="masthead__logo" href="{{ logo.url | default: '/' | relative_url }}">
-                <img src="{{ logo.src | relative_url }}" alt="{{ logo.alt | default: site.title }}">
-              </a>
-            {%- endfor -%}
-          </div>
-        {% else %}
-          {% unless logo_path == empty %}
-            <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
-          {% endunless %}
-          <a class="site-title" href="{{ '/' | relative_url }}">
-            {{ site.masthead_title | default: site.title | escape_once | strip }}
-            {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}</span>{% endif %}
-          </a>
-        {% endif %}
-        <ul class="visible-links">
-          {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <a
-                href="{{ link.url | relative_url }}"
-                {% if link.description %} title="{{ link.description }}"{% endif %}
-                {% if link.target %} target="{{ link.target }}"{% endif %}
-              >{{ link.title }}</a>
-            </li>
-          {%- endfor -%}
-        </ul>
-        {% if site.search == true %}
-        <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-          <i class="fas fa-search"></i>
-        </button>
-        {% endif %}
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+    <ul class="meo-nav__links">
+      {%- for link in site.data.navigation.main -%}
+        {%- assign link_url = link.url | append: "/" | replace: "//", "/" -%}
+        {%- if link_url == "/" -%}
+          {%- if current_url == "/" -%}{%- assign is_current = true -%}{%- else -%}{%- assign is_current = false -%}{%- endif -%}
+        {%- elsif current_url contains link_url -%}
+          {%- assign is_current = true -%}
+        {%- else -%}
+          {%- assign is_current = false -%}
+        {%- endif %}
+      <li><a href="{{ link.url | relative_url }}"{% if is_current %} class="is-current" aria-current="page"{% endif %}>{{ link.title }}</a></li>
+      {%- endfor %}
+    </ul>
+
+    <button class="meo-nav__toggle" type="button" aria-expanded="false" aria-controls="meo-nav-overlay">
+      <span class="visually-hidden">Open menu</span>
+      <span class="meo-nav__bars" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+  </nav>
+
+  <div class="meo-nav__overlay" id="meo-nav-overlay" hidden>
+    <button class="meo-nav__close" type="button">
+      <span class="visually-hidden">Close menu</span>
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <ul class="meo-nav__overlay-links">
+      {%- for link in site.data.navigation.main -%}
+        {%- assign link_url = link.url | append: "/" | replace: "//", "/" -%}
+        {%- if link_url == "/" -%}
+          {%- if current_url == "/" -%}{%- assign is_current = true -%}{%- else -%}{%- assign is_current = false -%}{%- endif -%}
+        {%- elsif current_url contains link_url -%}
+          {%- assign is_current = true -%}
+        {%- else -%}
+          {%- assign is_current = false -%}
+        {%- endif %}
+      <li><a href="{{ link.url | relative_url }}"{% if is_current %} class="is-current" aria-current="page"{% endif %}>{{ link.title }}</a></li>
+      {%- endfor %}
+    </ul>
   </div>
 </div>
+
+<script>
+  (function () {
+    var toggle = document.querySelector('.meo-nav__toggle');
+    var overlay = document.getElementById('meo-nav-overlay');
+    var close = overlay.querySelector('.meo-nav__close');
+
+    function setOpen(open) {
+      overlay.hidden = !open;
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      document.documentElement.classList.toggle('meo-nav-open', open);
+      (open ? close : toggle).focus();
+    }
+
+    toggle.addEventListener('click', function () { setOpen(true); });
+    close.addEventListener('click', function () { setOpen(false); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !overlay.hidden) setOpen(false);
+    });
+    window.addEventListener('resize', function () {
+      if (!overlay.hidden && window.innerWidth > 900) setOpen(false);
+    });
+  })();
+</script>
