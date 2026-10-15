@@ -24,7 +24,7 @@ name                     : # Marc Rußwurm
 description              : # "An amazing website."
 url                      : # https://meo-lab.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : meo-lab/meo-lab.github.io"
+repository               : meo-lab/meo-lab.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : 
 masthead_logos:

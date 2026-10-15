@@ -2008,3 +2008,29 @@ html.meo-nav-open body{
     padding-right: 1rem;
   }
 }
+
+/* Page transitions: crossfade between pages while the nav bar stays still
+   (Chrome, Edge, Safari 18.2+; other browsers switch pages instantly) */
+@view-transition{
+  navigation: auto;
+}
+
+.masthead.meo-nav{
+  view-transition-name: site-nav;
+}
+
+::view-transition-old(root),
+::view-transition-new(root){
+  animation-duration: 0.22s;
+  animation-timing-function: ease-out;
+}
+
+::view-transition-group(site-nav){
+  animation-duration: 0.22s;
+}
+
+@media (prefers-reduced-motion: reduce){
+  @view-transition{
+    navigation: none;
+  }
+}

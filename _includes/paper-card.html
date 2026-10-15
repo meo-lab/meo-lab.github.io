@@ -1,6 +1,9 @@
 {%- assign p = include.paper -%}
 {%- assign authors = p.authors -%}
-{%- assign core_team = site.members | where_exp: "m", "m.hide != true" | where_exp: "m", "m.label == 'leader' or m.label == 'PhD'" -%}
+{%- assign visible_members = site.members | where_exp: "m", "m.hide != true" -%}
+{%- assign core_leaders = visible_members | where: "label", "leader" -%}
+{%- assign core_phds = visible_members | where: "label", "PhD" -%}
+{%- assign core_team = core_leaders | concat: core_phds -%}
 {%- for m in core_team -%}
   {%- assign bold_name = '**' | append: m.name | append: '**' -%}
   {%- assign authors = authors | replace: bold_name, m.name | replace: m.name, bold_name -%}
