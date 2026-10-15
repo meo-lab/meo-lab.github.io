@@ -9,4 +9,5 @@ website: https://vishalned.github.io/
 openalex_author_id: a5120498980
 order: 3
 start: 2024
+external: true
 ---

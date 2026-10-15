@@ -931,13 +931,11 @@ body::before {
 
 .people-featured{
   display: grid;
-  max-width: 980px;
 }
 
 .people-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 320px));
-  justify-content: start;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.4rem;
 }
 

@@ -6,7 +6,8 @@ permalink: /people/
 
 {% assign visible_members = site.members | where_exp: "m", "m.hide != true" %}
 {% assign leaders = visible_members | where: "label", "leader" | sort: "order" %}
-{% assign phds = visible_members | where: "label", "PhD" | sort: "order" %}
+{% assign phds_internal = visible_members | where: "label", "PhD" | where_exp: "m", "m.external != true" | sort: "order" %}
+{% assign phds_external = visible_members | where: "label", "PhD" | where: "external", true | sort: "order" %}
 {% assign visiting = visible_members | where: "label", "Visiting" | sort: "name" %}
 {% assign msc_all = visible_members | where: "label", "MSc" %}
 {% assign current_msc = msc_all | where: "current_msc", true | sort: "end" | reverse %}
@@ -54,14 +55,15 @@ permalink: /people/
     </div>
   </section>
 
+  {% if phds_internal.size > 0 %}
   <section class="people-section">
     <div class="people-section__header">
       <div class="people-section__eyebrow">Team</div>
-      <h2 class="people-section__title">Doctoral Candidates (external)</h2>
+      <h2 class="people-section__title">Doctoral Candidates</h2>
     </div>
 
     <div class="people-grid">
-      {% for m in phds %}
+      {% for m in phds_internal %}
         <article class="person-card">
           {% if m.image %}
             <div class="person-card__media">
@@ -85,6 +87,41 @@ permalink: /people/
       {% endfor %}
     </div>
   </section>
+  {% endif %}
+
+  {% if phds_external.size > 0 %}
+  <section class="people-section">
+    <div class="people-section__header">
+      <div class="people-section__eyebrow">Network</div>
+      <h2 class="people-section__title">External Doctoral Candidates</h2>
+    </div>
+
+    <div class="people-grid">
+      {% for m in phds_external %}
+        <article class="person-card">
+          {% if m.image %}
+            <div class="person-card__media">
+              <img src="{{ m.image | relative_url }}" alt="{{ m.name }}">
+            </div>
+          {% endif %}
+          <div class="person-card__content">
+            <div class="person-card__name">
+              {% if m.website %}
+                <a href="{{ m.website }}" target="_blank" rel="noopener">{{ m.name }}</a>
+              {% else %}
+                {{ m.name }}
+              {% endif %}
+            </div>
+            <div class="person-card__meta">{{ m.position_long | default: m.position }}</div>
+            {% if m.topic or m.phd_topic %}
+              <div class="person-card__detail">{{ m.topic | default: m.phd_topic }}</div>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
   {% if visiting.size > 0 %}
     <section class="people-section">
