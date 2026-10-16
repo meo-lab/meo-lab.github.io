@@ -1,5 +1,5 @@
 ---
-title: End-To-End Learned Early Classification Of Time Series For In-Season\n Crop Type Mapping
+title: End-To-End Learned Early Classification Of Time Series For In-Season Crop Type Mapping
 authors: '**Marc Rußwurm**, Sébastien Lefèvre, Nicolas Courty, Rémi Emonet, Marco Körner, Romain Tavenard'
 date: '2019-01-30'
 year: 2019

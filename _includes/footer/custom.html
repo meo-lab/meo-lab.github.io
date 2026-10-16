@@ -1,3 +1,35 @@
 <!-- start custom footer snippets -->
 
+<!-- Render inline LaTeX ($...$) in publication titles; KaTeX loads only when needed -->
+<script>
+  (function () {
+    var titles = Array.prototype.filter.call(
+      document.querySelectorAll('.paper-card__title'),
+      function (el) { return el.textContent.indexOf('$') !== -1; }
+    );
+    if (!titles.length) return;
+    var base = 'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/';
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = base + 'katex.min.css';
+    document.head.appendChild(css);
+    var load = function (src, cb) {
+      var s = document.createElement('script');
+      s.src = src;
+      s.onload = cb;
+      document.head.appendChild(s);
+    };
+    load(base + 'katex.min.js', function () {
+      load(base + 'contrib/auto-render.min.js', function () {
+        titles.forEach(function (el) {
+          renderMathInElement(el, {
+            delimiters: [{ left: '$', right: '$', display: false }],
+            throwOnError: false
+          });
+        });
+      });
+    });
+  })();
+</script>
+
 <!-- end custom footer snippets -->
