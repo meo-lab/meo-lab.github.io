@@ -1,1 +1,0 @@
-var e=`/teaching/grl/2-geospatial-data-images-maps-time-series/assets/active-remote-sensing-BLPVI87p.png`;export{e as t};

@@ -1,0 +1,1 @@
+var e=`/teaching/grl/2-geospatial-data-images-maps-time-series/assets/geospatial-data-sources-overview-step2-kzb7_UM5.svg`;export{e as t};

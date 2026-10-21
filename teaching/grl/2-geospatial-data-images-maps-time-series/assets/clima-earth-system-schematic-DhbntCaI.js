@@ -1,0 +1,1 @@
+var e=`/teaching/grl/2-geospatial-data-images-maps-time-series/assets/clima-earth-system-schematic-C4mjkzYB.png`;export{e as t};

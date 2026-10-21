@@ -1,1 +1,0 @@
-var e=`/teaching/grl/2-geospatial-data-images-maps-time-series/assets/Globe_Atlantic-C2svLviZ.svg`;export{e as t};
