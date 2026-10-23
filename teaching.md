@@ -23,7 +23,7 @@ permalink: /teaching/
       <p class="course-card__desc">M. Rußwurm and the MEO-Lab team will teach the <strong>Geospatial Representation Learning</strong> course at the University of Bonn.</p>
       <div class="course-card__actions">
         <a class="course-card__cta" href="https://meo-lab.com/teaching/grl/">About the course</a>
-        <a class="course-card__cta course-card__cta--secondary" href="https://meo-lab.com/teaching/grl/5">Lectures</a>
+        <a class="course-card__cta course-card__cta--secondary" href="https://meo-lab.com/teaching/grl/1-why-geospatial-representation-learning/1">Lecture 1</a>
       </div>
     </div>
   </article>
