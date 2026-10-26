@@ -28,4 +28,23 @@ permalink: /teaching/
     </div>
   </article>
 
+  <article class="course-card">
+    <div class="course-card__preview">
+      <iframe
+        src="{{ '/teaching/env-320/' | relative_url }}"
+        title="Satellite Data in Agricultural and Environmental Economics Lecture 1 slides"
+        onload="var f = this; setTimeout(function () { f.classList.add('is-loaded'); }, 150);"
+        allow="fullscreen"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="course-card__body">
+      <div class="course-card__meta">ENV-320</div>
+      <h2 class="course-card__title"><a href="{{ '/teaching/env-320/' | relative_url }}">Satellite Data in Agricultural and Environmental Economics</a></h2>
+      <div class="course-card__actions">
+        <a class="course-card__cta" href="{{ '/teaching/env-320/' | relative_url }}">Lecture 1</a>
+      </div>
+    </div>
+  </article>
+
 </div>
