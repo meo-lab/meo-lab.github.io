@@ -3,17 +3,50 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Geospatial Embeddings - Slidev</title>
+<title>Earth Embeddings - Slidev</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&family=Fira+Code:wght@200;400;600&display=swap" type="text/css">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig1-earth-embeddings.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/shared-index.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig1.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/analogy-road.jpg">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/analogy-river.jpg">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/analogy-bridge.jpg">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig2.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig2-a-compression.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig2-c-fusion.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig2-d-interpolation.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig2-b-integrating.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig4-a-methods.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig4-a-explicit.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/mosaiks-rcf.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/mae.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/mmearth.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/alphaearth-architecture.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/alphaearth-gee.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig4-a-implicit.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/satclip-contrastive.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig3-a-direct-prediction.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig3.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/aef-elevation.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig3-b-conditioning.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/satclip-superres.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig3-d-retrieval.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/desert-arizona.jpg">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/desert-sahara.jpg">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/desert-arabian.jpg">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig3-c-synthesis.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/geosynth.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/tutorial/schindler-pipeline.png">
+<link rel="preload" as="image" href="/teaching/grl/6-location-encoders-and-spatial-embeddings/./assets/earth-embeddings/fig4-b-interfaces.png">
 <link rel="icon" href="https://cdn.jsdelivr.net/gh/slidevjs/slidev/assets/favicon.png">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta property="slidev:version" content="52.19.1">
-<meta property="og:title" content="Geospatial Embeddings - Slidev">  <script type="module" crossorigin src="/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/index-P1P0tT73.js"></script>
+<meta property="og:title" content="Earth Embeddings - Slidev">  <script type="module" crossorigin src="/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/index-xtoHZ8US.js"></script>
   <link rel="modulepreload" crossorigin href="/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/rolldown-runtime-hePW80VL.js">
-  <link rel="modulepreload" crossorigin href="/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/modules/shiki-C2X_BFw-.js">
-  <link rel="modulepreload" crossorigin href="/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/modules/vue-D0Vq5WJb.js">
+  <link rel="modulepreload" crossorigin href="/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/modules/shiki-tW7ZzN0Q.js">
+  <link rel="modulepreload" crossorigin href="/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/modules/vue-D-4FSHFP.js">
   <link rel="stylesheet" crossorigin href="/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/modules/shiki-BrmBd2_v.css">
-  <link rel="stylesheet" crossorigin href="/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/index-owtLUNzI.css">
+  <link rel="stylesheet" crossorigin href="/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/index-fW0TeuBo.css">
 </head>
 <body>
   <div id="app"></div>

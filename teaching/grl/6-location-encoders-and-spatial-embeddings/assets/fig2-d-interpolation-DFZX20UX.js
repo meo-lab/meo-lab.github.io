@@ -1,0 +1,1 @@
+var e=`/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/fig2-d-interpolation-BzgU4AyO.png`;export{e as t};

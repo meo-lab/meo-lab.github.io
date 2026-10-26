@@ -1,0 +1,1 @@
+var e=`/teaching/grl/6-location-encoders-and-spatial-embeddings/assets/fig4-a-methods-NhHd-Jnn.png`;export{e as t};
