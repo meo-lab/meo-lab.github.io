@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-data-representations/assets/bonn-pca-rgb-L1rvwnIE.jpg`;export{e as t};

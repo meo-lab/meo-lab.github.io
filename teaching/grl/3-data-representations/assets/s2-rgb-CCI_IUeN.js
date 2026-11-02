@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-data-representations/assets/s2-rgb-D5KKjreX.png`;export{e as t};

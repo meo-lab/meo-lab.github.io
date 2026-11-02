@@ -1,0 +1,1 @@
+var e=`/teaching/grl/7-earth-embeddings/assets/fig3-a-direct-prediction-BnPXKoFj.png`;export{e as t};

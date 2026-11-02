@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-data-representations/assets/olci-chl-index-scotland-DeEZkyv_.jpg`;export{e as t};

@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-data-representations/assets/s2-scatter-green-red-CszTRsvA.png`;export{e as t};

@@ -1,0 +1,1 @@
+var e=`/teaching/grl/6-deep-representation-learning-ii/assets/grad_descent_image-C9dcEWpw.png`;export{e as t};

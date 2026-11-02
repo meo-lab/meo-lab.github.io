@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-data-representations/assets/uni-bonn-logo-BMvlYf2U.svg`;export{e as t};

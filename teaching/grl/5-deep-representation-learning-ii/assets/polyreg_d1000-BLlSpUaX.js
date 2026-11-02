@@ -1,1 +1,0 @@
-var e=`/teaching/grl/5-deep-representation-learning-ii/assets/polyreg_d1000-oo6q0Ya7.png`;export{e as t};

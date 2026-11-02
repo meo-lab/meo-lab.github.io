@@ -1,0 +1,1 @@
+var e=`/teaching/grl/5-deep-representation-learning-i/assets/backprop_6-DiGdxn3f.svg`;export{e as t};

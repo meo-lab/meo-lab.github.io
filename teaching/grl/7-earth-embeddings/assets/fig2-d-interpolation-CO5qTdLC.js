@@ -1,0 +1,1 @@
+var e=`/teaching/grl/7-earth-embeddings/assets/fig2-d-interpolation-BzgU4AyO.png`;export{e as t};

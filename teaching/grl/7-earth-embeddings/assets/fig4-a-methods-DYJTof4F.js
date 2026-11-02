@@ -1,0 +1,1 @@
+var e=`/teaching/grl/7-earth-embeddings/assets/fig4-a-methods-NhHd-Jnn.png`;export{e as t};

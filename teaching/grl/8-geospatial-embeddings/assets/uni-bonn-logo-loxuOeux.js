@@ -1,1 +1,0 @@
-var e=`/teaching/grl/8-geospatial-embeddings/assets/uni-bonn-logo-BMvlYf2U.svg`;export{e as t};
