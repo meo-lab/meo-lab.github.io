@@ -9,6 +9,7 @@ permalink: /people/
 {% assign leaders = visible_members | where: "label", "leader" | sort: "order" %}
 {% assign phds_internal = visible_members | where: "label", "PhD" | where_exp: "m", "m.external != true" | sort: "order" %}
 {% assign phds_external = visible_members | where: "label", "PhD" | where: "external", true | sort: "order" %}
+{% assign assistants = visible_members | where: "label", "Assistant" | sort: "order" %}
 {% assign visiting = visible_members | where: "label", "Visiting" | sort: "name" %}
 {% assign msc_all = visible_members | where: "label", "MSc" %}
 {% assign current_msc = msc_all | where: "current_msc", true | sort: "end" | reverse %}
@@ -113,6 +114,40 @@ permalink: /people/
             <div class="person-card__meta">{{ m.position_long | default: m.position }}</div>
             {% if m.topic or m.phd_topic %}
               <div class="person-card__detail">{{ m.topic | default: m.phd_topic }}</div>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if assistants.size > 0 %}
+  <section class="people-section">
+    <div class="people-section__header">
+      <div class="people-section__eyebrow">Staff</div>
+      <h2 class="people-section__title">Student Assistants</h2>
+    </div>
+
+    <div class="people-grid people-grid--phd">
+      {% for m in assistants %}
+        <article class="person-card">
+          {% if m.image %}
+            <div class="person-card__media{% if m.image_transparent %} person-card__media--transparent{% endif %}">
+              <img src="{{ m.image | relative_url }}" alt="{{ m.name }}">
+            </div>
+          {% endif %}
+          <div class="person-card__content">
+            <div class="person-card__name">
+              {% if m.website %}
+                <a href="{{ m.website }}" target="_blank" rel="noopener">{{ m.name }}</a>
+              {% else %}
+                {{ m.name }}
+              {% endif %}
+            </div>
+            <div class="person-card__meta">{{ m.position_long | default: m.position }}</div>
+            {% if m.topic %}
+              <div class="person-card__detail">{{ m.topic }}</div>
             {% endif %}
           </div>
         </article>

@@ -12,12 +12,16 @@ layout: archive
   {% assign visible_members = site.members | where_exp: "m", "m.hide != true" %}
   {% assign leaders = visible_members | where: "label", "leader" | sort: "order" %}
   {% assign phds = visible_members | where: "label", "PhD" | sort: "order" %}
+  {% assign assistants = visible_members | where: "label", "Assistant" | sort: "order" %}
   {% assign visiting = visible_members | where: "label", "Visiting" | sort: "name" %}
   {% assign msc_current = visible_members | where: "label", "MSc" | where: "current_msc", true | sort: "end" | reverse %}
   {% for m in leaders %}
     {% include member-card.html member=m %}
   {% endfor %}
   {% for m in phds %}
+    {% include member-card.html member=m %}
+  {% endfor %}
+  {% for m in assistants %}
     {% include member-card.html member=m %}
   {% endfor %}
   {% for m in visiting %}
