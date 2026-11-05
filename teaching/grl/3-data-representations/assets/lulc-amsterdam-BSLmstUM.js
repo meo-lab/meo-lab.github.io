@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-data-representations/assets/lulc-amsterdam-F3Ndmhx3.png`;export{e as t};

@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-data-representations/assets/dt_ai_forest-Zq03Kiim.jpg`;export{e as t};

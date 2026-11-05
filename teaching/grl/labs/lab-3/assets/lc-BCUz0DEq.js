@@ -1,0 +1,1 @@
+var e=`/teaching/grl/labs/lab-3/assets/lc-kbm7muK2.png`;export{e as t};

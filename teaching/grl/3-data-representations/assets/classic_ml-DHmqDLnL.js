@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-data-representations/assets/classic_ml-Ckh8O9c8.svg`;export{e as t};

@@ -1,1 +1,0 @@
-var e=`/teaching/grl/3-data-representations/assets/pc-correlation-matrix-wSXJeNNn.png`;export{e as t};

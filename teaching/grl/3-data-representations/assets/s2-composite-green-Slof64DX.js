@@ -1,1 +1,0 @@
-var e=`/teaching/grl/3-data-representations/assets/s2-composite-blue-BODC2Neg.png`,t=`/teaching/grl/3-data-representations/assets/s2-composite-green-BAF7bnJr.png`;export{e as n,t};

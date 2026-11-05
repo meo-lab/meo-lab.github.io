@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-data-representations/assets/dt_sunflower_happy-nv08SV3k.png`,t=`/teaching/grl/3-data-representations/assets/dt_sunflower_unhappy-Drb6-d2_.png`;export{e as n,t};

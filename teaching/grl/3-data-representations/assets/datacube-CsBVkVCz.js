@@ -1,0 +1,1 @@
+var e=`/teaching/grl/3-data-representations/assets/datacube-gxEi60JZ.jpg`;export{e as t};
