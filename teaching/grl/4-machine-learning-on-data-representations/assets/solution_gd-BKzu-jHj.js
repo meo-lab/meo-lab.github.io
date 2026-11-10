@@ -1,0 +1,1 @@
+var e=`/teaching/grl/4-machine-learning-on-data-representations/assets/solution_gd-tRGofTZM.png`;export{e as t};

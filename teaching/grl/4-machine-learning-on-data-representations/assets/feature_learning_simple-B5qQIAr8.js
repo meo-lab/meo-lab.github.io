@@ -1,0 +1,1 @@
+var e=`/teaching/grl/4-machine-learning-on-data-representations/assets/feature_learning_simple-BKVVG6eO.svg`;export{e as t};

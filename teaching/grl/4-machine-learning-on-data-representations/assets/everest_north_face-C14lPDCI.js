@@ -1,0 +1,1 @@
+var e=`/teaching/grl/4-machine-learning-on-data-representations/assets/everest_north_face-CHcYIsCE.jpg`;export{e as t};
