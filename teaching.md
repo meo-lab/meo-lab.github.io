@@ -26,6 +26,8 @@ permalink: /teaching/
         <div class="course-card__lectures">
           <a class="course-card__cta course-card__cta--secondary" href="https://meo-lab.com/teaching/grl/1-why-geospatial-representation-learning/1">Lecture 1</a>
           <a class="course-card__cta course-card__cta--secondary" href="https://meo-lab.com/teaching/grl/2-geospatial-data-images-maps-time-series/1">Lecture 2</a>
+          <a class="course-card__cta course-card__cta--secondary" href="https://meo-lab.com/teaching/grl/3-data-representations/1">Lecture 3</a>
+          <a class="course-card__cta course-card__cta--secondary" href="https://meo-lab.com/teaching/grl/4-machine-learning-on-data-representations/1">Lecture 4</a>
         </div>
       </div>
     </div>
