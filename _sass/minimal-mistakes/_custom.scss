@@ -5,6 +5,7 @@ html, body {
 
 html {
   font-size: 15px;
+  overflow-x: clip;
 }
 
 body {
@@ -121,6 +122,89 @@ body::before {
 @media (max-width: 640px){
   .layout--home .members-grid > .member-card{
     flex-basis: 100%;
+  }
+}
+
+/* Group photo: full-bleed white band above the member cards;
+   on wide screens the band holds the photo with the cards beside it */
+.layout--home .home-group-photo{
+  width: 100vw;
+  margin: 0 0 2rem calc(50% - 50vw);
+  padding: 2rem 1rem;
+  background: #fff;
+  border-top: 1px solid rgba(22, 63, 116, 0.12);
+  border-bottom: 1px solid rgba(22, 63, 116, 0.12);
+  box-sizing: border-box;
+}
+
+.layout--home .home-group-photo img{
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  object-position: 50% 65%;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px rgba(13, 45, 88, 0.12);
+}
+
+@media (max-width: 640px){
+  .layout--home .home-group-photo{
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1200px){
+  .layout--home .home-group{
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: stretch;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding: 2rem calc(50vw - 50%);
+    background: #fff;
+    border-top: 1px solid rgba(22, 63, 116, 0.12);
+    border-bottom: 1px solid rgba(22, 63, 116, 0.12);
+    box-sizing: border-box;
+  }
+
+  /* The cards set the row height; the photo fills it */
+  .layout--home .home-group-photo{
+    position: relative;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .layout--home .home-group-photo img{
+    position: absolute;
+    inset: 0;
+    max-width: none;
+    height: 100%;
+    aspect-ratio: auto;
+    object-position: 50% 60%;
+  }
+
+  .layout--home .home-group .members-grid{
+    gap: 0.75rem;
+    align-content: start;
+  }
+
+  .layout--home .home-group .members-grid > .member-card{
+    flex-basis: calc((100% - 0.75rem) / 2);
+    grid-template-columns: 72px 1fr;
+    gap: 0.75rem;
+    padding: 0.6rem;
+    align-items: center;
+    height: auto;
+  }
+
+  .layout--home .home-group .member-card__image{
+    width: 72px;
+    min-width: 72px;
+    height: 90px;
   }
 }
 
@@ -1012,6 +1096,38 @@ body::before {
   gap: 1.4rem;
 }
 
+.people-columns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.4rem;
+  align-items: flex-start;
+}
+
+.people-column{
+  display: grid;
+  gap: 1rem;
+  flex: 0 1 calc((100% - 2 * 1.4rem) / 3);
+  max-width: 400px;
+}
+
+.people-column .person-card{
+  min-height: 160px;
+}
+
+@media (max-width: 1250px){
+  .people-column{
+    flex-basis: calc((100% - 1.4rem) / 2);
+  }
+}
+
+@media (max-width: 900px){
+  .people-column{
+    flex-basis: 100%;
+    max-width: 520px;
+  }
+}
+
 .people-grid--phd{
   display: flex;
   flex-wrap: wrap;
@@ -1257,6 +1373,14 @@ body::before {
 
   .people-grid{
     grid-template-columns: 1fr;
+  }
+
+  .people-column{
+    max-width: none;
+  }
+
+  .people-column .person-card{
+    min-height: 0;
   }
 
   .person-card{
@@ -1769,6 +1893,15 @@ body::before {
 .layout--single.research-topic .page__content .about-cards > .topic-intro:last-child{
   grid-column: 2;
   grid-row: 1 / span 2;
+}
+
+.layout--single.research-topic .page__content .about-cards > .topic-intro:last-child{
+  display: flex;
+  flex-direction: column;
+}
+
+.layout--single.research-topic .page__content .about-cards .contact-card{
+  margin-block: auto;
 }
 
 @media (max-width: 900px){

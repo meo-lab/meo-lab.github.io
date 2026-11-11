@@ -122,48 +122,44 @@ permalink: /people/
   </section>
   {% endif %}
 
-  {% if assistants.size > 0 %}
+  {% if assistants.size > 0 or visiting.size > 0 %}
   <section class="people-section">
     <div class="people-section__header">
-      <div class="people-section__eyebrow">Staff</div>
-      <h2 class="people-section__title">Student Assistants</h2>
+      <div class="people-section__eyebrow">Staff &amp; Visitors</div>
     </div>
 
-    <div class="people-grid people-grid--phd">
-      {% for m in assistants %}
-        <article class="person-card">
-          {% if m.image %}
-            <div class="person-card__media{% if m.image_transparent %} person-card__media--transparent{% endif %}">
-              <img src="{{ m.image | relative_url }}" alt="{{ m.name }}">
-            </div>
-          {% endif %}
-          <div class="person-card__content">
-            <div class="person-card__name">
-              {% if m.website %}
-                <a href="{{ m.website }}" target="_blank" rel="noopener">{{ m.name }}</a>
-              {% else %}
-                {{ m.name }}
+    <div class="people-columns">
+      {% if assistants.size > 0 %}
+      <div class="people-column">
+        <h2 class="people-section__title">Student Assistants</h2>
+        {% for m in assistants %}
+          <article class="person-card">
+            {% if m.image %}
+              <div class="person-card__media{% if m.image_transparent %} person-card__media--transparent{% endif %}">
+                <img src="{{ m.image | relative_url }}" alt="{{ m.name }}">
+              </div>
+            {% endif %}
+            <div class="person-card__content">
+              <div class="person-card__name">
+                {% if m.website %}
+                  <a href="{{ m.website }}" target="_blank" rel="noopener">{{ m.name }}</a>
+                {% else %}
+                  {{ m.name }}
+                {% endif %}
+              </div>
+              <div class="person-card__meta">{{ m.position_long | default: m.position }}</div>
+              {% if m.topic or m.visiting_topic %}
+                <div class="person-card__detail">{{ m.topic | default: m.visiting_topic }}</div>
               {% endif %}
             </div>
-            <div class="person-card__meta">{{ m.position_long | default: m.position }}</div>
-            {% if m.topic %}
-              <div class="person-card__detail">{{ m.topic }}</div>
-            {% endif %}
-          </div>
-        </article>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
-
-  {% if visiting.size > 0 %}
-    <section class="people-section">
-      <div class="people-section__header">
-        <div class="people-section__eyebrow">Visitors</div>
-        <h2 class="people-section__title">Visiting Scholars</h2>
+          </article>
+        {% endfor %}
       </div>
+      {% endif %}
 
-      <div class="people-grid">
+      {% if visiting.size > 0 %}
+      <div class="people-column">
+        <h2 class="people-section__title">Visiting Scholars</h2>
         {% for m in visiting %}
           <article class="person-card">
             {% if m.image %}
@@ -187,7 +183,9 @@ permalink: /people/
           </article>
         {% endfor %}
       </div>
-    </section>
+      {% endif %}
+    </div>
+  </section>
   {% endif %}
 
   <section class="people-section people-section--compact">
