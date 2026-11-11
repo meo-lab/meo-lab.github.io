@@ -8,6 +8,11 @@ layout: archive
 
 <h3 class="archive__subtitle section-label">Research Group</h3>
 
+<div class="home-group">
+<figure class="home-group-photo">
+  <img src="{{ '/assets/images/members/group_pic.jpg' | relative_url }}" alt="The MEO Lab team">
+</figure>
+
 <div class="members-grid">
   {% assign visible_members = site.members | where_exp: "m", "m.hide != true" %}
   {% assign leaders = visible_members | where: "label", "leader" | sort: "order" %}
@@ -30,6 +35,7 @@ layout: archive
   {% for m in msc_current %}
     {% include member-card.html member=m show_thesis=false %}
   {% endfor %}
+</div>
 </div>
 
 <h3 class="archive__subtitle section-label home-section-title">News</h3>

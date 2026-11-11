@@ -1,7 +1,7 @@
 ---
 name: Claire Robin
 position_long: joint PhD from Max Plank Institute for Biogeochemistry, Jena
-position: ELLIS PhD Candidate (Bonn & MPI Biogeochemistry)
+position: ELLIS PhD Candidate at Bonn and MPI Biogeochemistry
 topic: "Vegetation Forecating and Extreme Event Detection"
 label: PhD
 image: /assets/images/members/claire.png
