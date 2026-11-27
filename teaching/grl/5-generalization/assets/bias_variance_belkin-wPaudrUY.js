@@ -1,0 +1,1 @@
+var e=`/teaching/grl/5-generalization/assets/bias_variance_belkin-CH8vkk_R.svg`;export{e as t};

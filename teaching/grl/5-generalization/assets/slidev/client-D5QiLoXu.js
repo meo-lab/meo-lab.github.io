@@ -1,0 +1,1 @@
+import"../index-D-UBsPDq.js";import"../useDrawings-3tfRGcDa.js";var e=`/teaching/grl/5-generalization/assets/uni-bonn-logo-BMvlYf2U.svg`;export{e as t};
